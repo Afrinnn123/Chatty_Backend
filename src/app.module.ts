@@ -13,8 +13,8 @@ import { MailerModule } from '@nestjs-modules/mailer';
     host:'localhost',
     port:5432,
     username:'postgres',
-    password:'neshat',
-    database: 'Neshat',
+    password:'',
+    database: '',
     autoLoadEntities: true,
     synchronize: true,
    }
@@ -26,8 +26,8 @@ import { MailerModule } from '@nestjs-modules/mailer';
       port: 587,
       secure: false,
       auth: {
-        user: 'chatapp621@gmail.com',
-        pass: 'mlbm hbwe dlqn pnez',
+        user: '',
+        pass: '',
       },
     },
     defaults: {
